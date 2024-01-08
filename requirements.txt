@@ -1,0 +1,11 @@
+matplotlib
+scipy
+tianshou==0.3.1
+dyn_rl_benchmarks
+wandb
+pybullet==3.2.5
+gymnasium==0.26.1
+numpy==1.20.3
+numba==0.56
+
+./hac_envs

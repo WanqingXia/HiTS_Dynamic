@@ -1,0 +1,16 @@
+{
+    "n_steps": 400000000,
+    "n_episodes": 4000000,
+    "n_runs": 1,
+    "test_frequency": 1000,
+    "n_test_episodes": 10,
+    "env": "UR5DynReach-v1",
+    "worker_class": "DefaultGraphRLWorker",
+    "run_metric_params": {
+        "name": "average_success_run_metric",
+        "after_step": 0.0
+    },
+    "torch_num_threads": 4,
+    "model_save_frequency": 1000,
+    "seed": 3859
+}
